@@ -1,5 +1,10 @@
-let name = prompt("Please, Enter your name: ");
-let surname = prompt("Please, Enter your surname: ");
-let city = prompt("Enter Your city");
 
+
+
+
+document.getElementById("validate").onclick = function(){
+    let name = document.getElementById("name").value;
+let surname = document.getElementById("surname").value;
+let city = document.getElementById("city").value;
 window.alert("Name: " + name + "\n" +"Surname: " + surname + "\n" +"City: " + city);
+}
